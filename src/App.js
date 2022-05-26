@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+
 const api = `https://course-api.com/react-useReducer-cart-project`;
 
-https: function App() {
-  return <div className="App"></div>;
+function App() {
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
