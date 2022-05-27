@@ -1,0 +1,9 @@
+.cartwrapper {
+  margin: 0 auto;
+  width: 1000px;
+  height: fit-content;
+  top: 0;
+  left: 0;
+  transform: translate(-50, -50);
+  background-color: rgb(218, 193, 193);
+}

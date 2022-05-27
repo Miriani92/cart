@@ -5,20 +5,24 @@
   background-color: green;
   height: 5rem;
   color: white;
+  padding: 1.25rem;
 }
 .header h2 {
   font-size: 2.5rem;
+  margin-bottom: 0;
 }
 .header > div {
   font-size: 1.8rem;
+  padding-top: 10px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.header > div::after {
-  /* content: "";
-  position: fixed;
-  margin-bottom: 10px;
-
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: white; */
+.quantity {
+  position: relative;
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 1.4rem;
 }
